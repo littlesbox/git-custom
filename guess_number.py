@@ -3,7 +3,7 @@ import random
 
 def main():
     print("欢迎来到猜数字游戏！")
-    print("我已经想好了一个 1 到 100 之间的数字，你来猜。")
+    print("我已经想好了一个 1 到 100 之间的整数，你来猜。")
     target = random.randint(1, 100)
     attempts = 0
 
